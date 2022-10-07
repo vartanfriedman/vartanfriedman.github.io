@@ -1,0 +1,4 @@
+main {
+    display:flex;
+  }
+  main div{flex:1;text-align: center;} 
