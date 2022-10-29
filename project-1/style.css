@@ -48,7 +48,11 @@ nav a:hover {
 .two-column section {
     flex:80%;
     padding:80px;
+    font-size: 32px;
+    
 }
+
+
 .two-column aside {
     flex:20%;
 height:80vh;
