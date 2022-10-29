@@ -1,62 +1,121 @@
-* {box-sizing: border-box;}
-html, body {
+@import url(//db.onlinewebfonts.com/c/5d62bf76ae5aa45ae1f6e0de19ca00ce?family=Maax+Mono+Regular);
+
+@font-face {
+  font-family: 'Helvetica Neue Light';
+  src: url('fonts/HelveticaNeueLTStd45Light_22520.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
   height: 100%;
   width: 100%;
 }
 body {
-    width:100vw;
-    height:100vh;
-    margin:0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Maax Mono Regular';
 }
-img {width:100%;}
+/* img {
+  width: 100%;
+} */
 .ambient-page {
-    background-color:rgb(68,148,217);
-    background-image: url(images/purple-crazy.png);
-    background-size:cover;
-    background-repeat: no-repeat;
+  background-color: rgb(68, 148, 217);
+  background-image: url(images/purple-crazy.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dandb-page {
+  background-color: rgb(68, 148, 217);
+  background-image: url(images/dandb-bkg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: color-dodge;
+}
+.home-page {
+  background: white;
+}
+.home-page main {
+  position: relative;
+  width: 60%;
+  margin: auto;
+}
+img.edm-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 204px;
+  z-index: 3;
+}
+img.skinwalk {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+img.demon-boy {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 40%;
+  z-index: 2;
+}
+.home-page h1 {
+  color: white;
+  font-family: 'Helvetica Neue Light';
+  font-size: 96px;
 }
 nav {
-    border-bottom:2px solid black;
+  border-bottom: 2px solid black;
 }
 nav ul {
-    display:flex;
-    justify-content: space-evenly;
-    list-style:none;
-    margin:0;
-    padding-top:80px;
-    padding-bottom:20px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 nav a {
-    display:inline-block;
-    color: #000;
-    text-decoration:none;
-    background-color: #fff;
-    padding: 8px 16px;
-    border-radius:30px;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 8px 16px;
+  border-radius: 30px;
 }
 nav a.active {
-    background-color: lime;
+  background-color: lime;
 }
 nav a:hover {
-    background-color: #9fddea;
+  background-color: #9fddea;
 }
 .two-column {
-    display:flex;
-    align-items: stretch;
+  display: flex;
+  align-items: stretch;
 }
 .two-column section {
+<<<<<<< HEAD
     flex:80%;
     padding:80px;
     font-size: 32px;
     
+=======
+  flex: 80%;
+  padding: 80px;
+>>>>>>> 9e177a9f3492b1e6e0eacec9d4995833a0304f1d
 }
 
 
 .two-column aside {
-    flex:20%;
-height:80vh;
-    border-left:2px solid black;
-    padding:80px;
-
+  flex: 20%;
+  height: 80vh;
+  border-left: 2px solid black;
+  padding: 80px;
 }
