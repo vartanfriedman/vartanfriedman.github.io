@@ -101,17 +101,9 @@ nav a:hover {
   align-items: stretch;
 }
 .two-column section {
-<<<<<<< HEAD
-    flex:80%;
-    padding:80px;
-    font-size: 32px;
-    
-=======
   flex: 80%;
   padding: 80px;
->>>>>>> 9e177a9f3492b1e6e0eacec9d4995833a0304f1d
 }
-
 
 .two-column aside {
   flex: 20%;
