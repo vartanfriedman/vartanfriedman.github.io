@@ -9,5 +9,5 @@ function countDown() {
         newVal = currentVal - 1;
     }
     
-    document.getElementById('countDownButton").innerHTML = newVal; 
+    document.getElementById("countDownButton").innerHTML = newVal; 
 }
