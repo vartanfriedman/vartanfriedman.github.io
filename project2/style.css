@@ -1,6 +1,9 @@
+
+
 body {
     margin:0;
     background-color:#DCBA43
+    
 }
 img {
     width:100%;
@@ -16,10 +19,12 @@ img {
     width: 80%;
     margin:auto;
 }
+
 .menupage  .logo {
     position:absolute;
     top: 80px;
     right:80px;
+    
 }
 .logo {
     padding-top:40px;
@@ -28,6 +33,7 @@ img {
 }
 .content {
     margin-top: 100px;
+    
 }
 
 nav.vert-nav {
@@ -55,6 +61,7 @@ writing-mode: tb-rl;
     min-height:100px;
     flex:1;
     padding-right:30px;
+    
 }
 nav.vert-nav li:last-child {
 padding-bottom:40px;
@@ -64,6 +71,7 @@ nav.vert-nav li img.active {
     margin-right:10px;
     margin-top:6px;
     display:flex;
+    
 }
 nav.top-nav {
     display:flex;
@@ -74,12 +82,16 @@ nav.top-nav .small-icon {
 }
 .menupage main {
     margin-left:180px;
+    
 }
 .menupage .content {
     display:flex;
+    
+    
 }
 .menupage .content section {
     flex:1;
+    
 }
 #pizza-menu {
     display:none;
