@@ -96,3 +96,25 @@ nav.top-nav .small-icon {
 #pizza-menu {
     display:none;
 }
+
+#salads-menu {
+    display:none;
+}
+.about {
+    background-image: url('images/homepagebackgroundfaded.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.info {
+    text-align: center;
+    
+}
+.p {
+    margin: auto;
+
+}
+
+#center {
+    width: 110px;
+}

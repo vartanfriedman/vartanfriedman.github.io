@@ -6,3 +6,4 @@ $('#snacks').click(function() {
     $('#snacks-menu').css('display', 'block')
     $('article').not('#snacks-menu').css('display', 'none')
 })
+
