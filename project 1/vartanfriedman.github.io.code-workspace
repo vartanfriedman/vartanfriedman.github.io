@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "vartanfriedman.github.io",
+			"path": ".."
+		},
+		{
+			"name": "project-1",
+			"path": "../../../../Downloads/vartanfriedman.github.io-main/project-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "vartanfriedman.github.io"
+	}
+}
